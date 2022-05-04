@@ -6,9 +6,9 @@
 #
 
 # if version not passed in, default to latest released version
-VERSION=2.4.3
+VERSION=1.1.0
 # if ca version not passed in, default to latest released version
-CA_VERSION=1.5.3
+CA_VERSION=0.4.6
 ARCH=$(echo "$(uname -s|tr '[:upper:]' '[:lower:]'|sed 's/mingw64_nt.*/windows/')-$(uname -m |sed 's/x86_64/amd64/g')" |sed 's/darwin-arm64/darwin-amd64/g')
 MARCH=$(uname -m)
 
